@@ -1,0 +1,163 @@
+<!--tipo de documento-->
+<!DOCTYPE html>
+
+<!--etiqueta principal-->
+<html lang="es">
+
+<!--informacion para el browser-->
+
+<head>
+    <!--indica los carateres especiales-->
+    <meta charset="UTF-8" />
+
+    <!--autor de la pagina-->
+    <meta name="Autor" content="Axel Galeano" />
+
+    <!--tiutulo de la web, visible en la pestaña del navegadoor-->
+    <title>Axel Galeano</title>
+
+    <!--enlace a css-->
+    <link rel="stylesheet" href="estilos.css">
+</head>
+
+<body id="body">
+    <!--encabezado-->
+    <header>
+        <!--titulo de pagina-->
+        <h1 id="titulo"> Mi Curriculum <br> Vitae</h1>
+        <!--nombre-->
+        <h2 id="nombre2">Axel Galeano</h2>
+
+
+    </header>
+    <!--enter-->
+    <br id="espacioimg">
+    <!--div: para agrupar-->
+    <div id="imagen">
+        <img id="imagen2" src="Imagen/foto.png" alt="Foto" width="190" height="190" style="border-radius: 30px">
+    </div>
+    <!-- datos personales-->
+    <div>
+        <h2 id="contacto">
+            <!--subrraya encabezados-->
+            <ins>
+                Contacto
+            </ins>
+        </h2>
+        <!--h3: numeros -->
+        <h3>
+            <element id="numeros">
+                <!--enlace a whatsapp-->
+                <strong>Whatsapp:</strong>
+                <!--hipervinculos-->
+                <a href="https://wa.me/541151166736"> (1151166736) </a>
+                <!--parrafo-->
+                <p>
+                    <!--negritas-->
+                    <strong>Email:</strong>
+                    <strong>
+                        Axelgaleano24@gmail.com
+                    </strong>
+                </p>
+        </h3>
+    </div>
+    <!--se agrupa datos de domicilio-->
+    <section>
+        <h2 id="dirección">
+            <ins>
+                Dirección
+            </ins>
+        </h2>
+        <p>
+            <strong> CALLE: Falsa 123
+                <br> LOCALIDAD: Mariano acosta.
+                <br> PARTIDO: Merlo
+            </strong>
+        </p>
+    </section>
+    <!--se agrupa datos de estudios-->
+    <section>
+        <!--estudios-->
+        <h2 id="estudio">
+            <ins>
+                Estudios
+            </ins>
+        </h2>
+        <!--establecimiento-->
+        <ins id="escuela">
+            Escuela de Educacion Media N°2
+        </ins>
+
+        <br>
+        <!--em: para estilo cursiva a la letra-->
+        <em id="secundario">
+            Secundario completo
+        </em>
+        <p id="mod">
+            <ins>
+                <strong>
+                    Modalidad:
+                </strong>
+            </ins>
+            <em id="EyA">
+                <br>Economia y Administracion de empresas
+            </em>
+        </p>
+    </section>
+    <h2 id="experiencia">
+        <ins>
+            Exeperiencia laboral
+        </ins>
+    </h2>
+    <em id="exp2">
+        Taller de refrigeracion e Ives (Empresa de agua)
+    </em>
+
+    <div>
+        <!--tipo de lista-->
+        <ul id="lista">
+            <li>Reparacion de dispensers de agua</li>
+            <li>Mantenimiento y Reparacion de aires acondiconados <br> heladeras etc.</li>
+        </ul>
+    </div>
+
+    <div>
+        <h2 id="idioma">
+            <ins>
+                Idiomas
+            </ins>
+        </h2>
+        <!--tipo de lista desplegable-->
+        <select id="listades">
+            <option>Ingles</option>
+            <option>portugues</option>
+            <option>italiano-basico</option>
+        </select>
+    </div>
+
+    <!--pie de pagina-->
+    <footer>
+        <h2 id="sugerencias">
+            <ins>Deje su sugerencia</ins>
+        </h2>
+        <div id="form">
+            <!--sujerencia de formulario-->
+            <form>
+                <!--descripcion a cada campo del formulario-->
+                <label id="nym" for=" Nombre y Apellido"> Coloque su nombre y apellido:
+                    <br>
+                    <input id="casiilanya" type="text" placeholder="Nombre y Apellido">
+                </label>
+                <label id="escribamensaje">
+                    <p> Deje su mensaje: <br>
+                        <input id="casillamsj" type="text" name="nombre" placeholder="Deje su mensaje">
+                    </p>
+                </label>
+
+            </form>
+        </div>
+    </footer>
+
+</body>
+
+</html>
